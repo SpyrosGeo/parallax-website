@@ -3,7 +3,7 @@
     padding:0;
     box-sizing: border-box;
     color:#fff;
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;;
 }
 
 nav {
@@ -25,7 +25,7 @@ nav a {
 .container img {
     width: 100%;
     position:absolute;
-    height: 100vh;
+    height: 140vh;
     object-fit: cover;
     z-index:-1;
 }
