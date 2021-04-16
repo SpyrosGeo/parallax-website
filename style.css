@@ -5,3 +5,56 @@
     color:#fff;
     font-family: 'Pathway Gothic One', sans-serif;
 }
+
+nav {
+    position: absolute;
+    display: flex;
+    font-size: 1.1rem;
+    padding: 3rem 10rem;
+    justify-content: space-between;
+    /* background-color: lightblue; */
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+}
+.container {
+    height: 100vh;
+    /* background:black; */
+}
+.container img {
+    width: 100%;
+    position:absolute;
+    height: 100vh;
+    object-fit: cover;
+    z-index:-1;
+}
+.main-title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-size: 6rem;
+    transform: translate(-50%,-30%);
+}
+
+.content {
+    width: 100%;
+    background: rgb(24, 24, 24);
+    min-height: 100vh;
+    z-index: 2;
+    position: absolute;
+}
+.small-images {
+    max-height:300px ;
+}
+.content-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
+}
+.text{
+    padding:2rem 20rem;
+    font-size: 1.2rem;
+}
